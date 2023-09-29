@@ -22,17 +22,18 @@ config smartdns
 	option seconddns_no_rule_nameserver '1'
 	option seconddns_no_rule_ipset '1'
 	option ipv6_server '1'
-	option dualstack_ip_selection '1'
 	option bind_device '0'
 	list conf_files 'anti-ad-smartdns.conf'
 	option auto_set_dnsmasq '0'
+	option enable_auto_update '1'
+	option proxy_server 'socks5://127.0.0.1:7891'
+	option dualstack_ip_selection '1'
 	option old_port '6053'
 	option old_enabled '1'
 	option old_auto_set_dnsmasq '0'
 
 config domain-rule
-	option server_group 'oversea'
-	option no_speed_check '1'
+	option server_group 'DNSPod'
 
 config server
 	option enabled '1'
@@ -85,11 +86,11 @@ config server
 
 config server
 	option enabled '1'
-	option name 'google'
 	option ip 'https://8.8.4.4/dns-query'
 	option type 'https'
 	option exclude_default_group '1'
 	option server_group 'oversea'
+	option name 'Google'
 
 config server
 	option enabled '1'
@@ -106,6 +107,7 @@ config server
 	option type 'tcp'
 	option server_group 'oversea'
 	option exclude_default_group '1'
+	option use_proxy '1'
 
 config download-file
 	option name 'anti-ad-smartdns.conf'
@@ -115,4 +117,19 @@ config download-file
 
 config download-file
 	option type 'list'
+
+config server
+	option enabled '1'
+	option type 'udp'
+	option name 'AliDNS6'
+	option ip '2400:3200::1'
+
+config server
+	option type 'udp'
+	option name 'Google6'
+	option ip '2001:4860:4860::8888'
+	option server_group 'oversea'
+	option exclude_default_group '1'
+	option use_proxy '1'
+	option enabled '1'
 
