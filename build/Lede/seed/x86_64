@@ -7,11 +7,15 @@ CONFIG_PACKAGE_6rd=y
 CONFIG_PACKAGE_6to4=y
 # CONFIG_PACKAGE_UnblockNeteaseMusic-Go is not set
 # CONFIG_PACKAGE_adbyby is not set
+# CONFIG_PACKAGE_attr is not set
+# CONFIG_PACKAGE_autosamba is not set
+# CONFIG_PACKAGE_avahi-dbus-daemon is not set
 CONFIG_PACKAGE_bash=y
 # CONFIG_PACKAGE_blkid is not set
 # CONFIG_PACKAGE_chinadns-ng is not set
 # CONFIG_PACKAGE_coreutils-base64 is not set
 CONFIG_PACKAGE_coreutils-nohup=y
+# CONFIG_PACKAGE_dbus is not set
 # CONFIG_PACKAGE_dns2socks is not set
 # CONFIG_PACKAGE_dns2tcp is not set
 CONFIG_PACKAGE_ip6tables=y
@@ -42,19 +46,31 @@ CONFIG_PACKAGE_kmod-nf-reject6=y
 # CONFIG_PACKAGE_kmod-shortcut-fe-cm is not set
 CONFIG_PACKAGE_kmod-sit=y
 # CONFIG_PACKAGE_kmod-wireguard is not set
+# CONFIG_PACKAGE_libattr is not set
+# CONFIG_PACKAGE_libavahi-client is not set
+# CONFIG_PACKAGE_libavahi-dbus-support is not set
 CONFIG_PACKAGE_libcap-bin=y
 CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
 # CONFIG_PACKAGE_libcares is not set
+# CONFIG_PACKAGE_libdaemon is not set
+# CONFIG_PACKAGE_libdbus is not set
 # CONFIG_PACKAGE_libev is not set
+# CONFIG_PACKAGE_libexpat is not set
+# CONFIG_PACKAGE_libgnutls is not set
 # CONFIG_PACKAGE_libmbedtls is not set
 # CONFIG_PACKAGE_libminiupnpc is not set
 # CONFIG_PACKAGE_libnatpmp is not set
 CONFIG_PACKAGE_libnetsnmp=y
+# CONFIG_PACKAGE_libnettle is not set
 # CONFIG_PACKAGE_libparted is not set
+# CONFIG_PACKAGE_libpopt is not set
 CONFIG_PACKAGE_libruby=y
 # CONFIG_PACKAGE_libsodium is not set
 # CONFIG_PACKAGE_libstdcpp is not set
+# CONFIG_PACKAGE_libtasn1 is not set
+# CONFIG_PACKAGE_libtirpc is not set
 # CONFIG_PACKAGE_libudns is not set
+# CONFIG_PACKAGE_liburing is not set
 # CONFIG_PACKAGE_libuv is not set
 # CONFIG_PACKAGE_libwebsockets-full is not set
 CONFIG_PACKAGE_libyaml=y
@@ -71,6 +87,7 @@ CONFIG_PACKAGE_luci-app-msd_lite=y
 CONFIG_PACKAGE_luci-app-openclash=y
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
+# CONFIG_PACKAGE_luci-app-samba4 is not set
 CONFIG_PACKAGE_luci-app-smartdns=y
 # CONFIG_PACKAGE_luci-app-ssr-plus is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ChinaDNS_NG is not set
@@ -123,6 +140,8 @@ CONFIG_PACKAGE_ruby-psych=y
 CONFIG_PACKAGE_ruby-stringio=y
 CONFIG_PACKAGE_ruby-strscan=y
 CONFIG_PACKAGE_ruby-yaml=y
+# CONFIG_PACKAGE_samba4-libs is not set
+# CONFIG_PACKAGE_samba4-server is not set
 # CONFIG_PACKAGE_shadowsocks-libev-ss-local is not set
 # CONFIG_PACKAGE_shadowsocks-libev-ss-redir is not set
 # CONFIG_PACKAGE_shadowsocks-libev-ss-server is not set
@@ -140,6 +159,7 @@ CONFIG_PACKAGE_snmpd=y
 CONFIG_PACKAGE_unzip=y
 # CONFIG_PACKAGE_vsftpd-alt is not set
 # CONFIG_PACKAGE_wireguard-tools is not set
+# CONFIG_PACKAGE_wsdd2 is not set
 # CONFIG_PACKAGE_xray-core is not set
 # CONFIG_PACKAGE_zerotier is not set
 CONFIG_TARGET_ROOTFS_PARTSIZE=950
