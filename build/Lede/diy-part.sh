@@ -96,6 +96,8 @@ feeds.buildinfo
 sha256sums
 version.buildinfo
 profiles.json
+ipk.tar.gz
+x86-64-generic-rootfs.tar.gz
 openwrt-x86-64-generic-kernel.bin
 openwrt-x86-64-generic.manifest
 openwrt-x86-64-generic-squashfs-rootfs.img.gz
